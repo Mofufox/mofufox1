@@ -1,0 +1,32 @@
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  margin-top: var(--space-10);
+}
+
+#about img {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  object-fit: cover;
+}
+
+#text-about {
+  width: 70%;
+  margin: var(--space-4) var(--space-8);
+  text-align: justify;
+  color: black;
+}
+
+#about span {
+  color: var(--color-primary-400);
+}
+
+@media (min-width: 48rem) {
+  #about {
+    margin: 0 var(--space-12);
+    flex-direction: row;
+  }
+}

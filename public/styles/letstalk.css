@@ -1,0 +1,41 @@
+#letstalk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  margin-top: var(--space-10);
+}
+
+#letstalk img {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  object-fit: cover;
+}
+
+#text-letstalk {
+  width: 70%;
+  margin: var(--space-4) var(--space-8);
+  text-align: justify;
+  color: black;
+}
+
+#letstalk span {
+  color: var(--color-primary-400);
+}
+
+#lets-talk-btn {
+  display: block;
+  margin: 2rem auto;
+}
+
+#letstalk-nav-item {
+  border: 1px solid var(--color-primary-400);
+}
+
+@media (min-width: 48rem) {
+  #letstalk {
+    flex-direction: row;
+    margin: 0 var(--space-12);
+  }
+}
