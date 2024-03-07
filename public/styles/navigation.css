@@ -67,16 +67,18 @@ main {
 #mobile-menu-btn span {
   width: 2.25rem;
   height: 0.2rem;
-  background-color: black;
+  background-color: var(--color-primary-400);
 }
 
 #mobile-menu {
   position: fixed;
   top: 5rem;
   left: 0;
-  height: calc(100vh - 5rem);
+  /* height: calc(100vh - 5rem); */
+  height: 100%;
   width: 100%;
-  background-color: var(--color-primary-400);
+  /* background-color: var(--color-primary-400); */
+  background-color: white;
   display: none;
   flex-direction: column;
   align-items: center;
@@ -97,7 +99,8 @@ main {
   font-size: 1.75rem;
   /* color: black; */
   /* color: white; */
-  color: var(--color-gray-100);
+  /* color: var(--color-gray-100); */
+  color: var(--color-primary-400);
 }
 
 #main-footer {
