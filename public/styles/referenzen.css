@@ -44,16 +44,13 @@
 }
 
 .container-referenzen p {
+  color: var(--color-gray-100);
   margin-top: var(--space-2);
+  width: 90%;
 }
 
 .container-referenzen strong {
   color: var(--color-primary-400);
-}
-
-.container-referenzen p {
-  width: 90%;
-  color: var(--color-gray-100);
 }
 
 @media (min-width: 48rem) {

@@ -45,6 +45,7 @@ html {
   --shadow-medium: 0 2px 8px rgba(0, 0, 0, 0.2);
 
   scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
 }
 
 body {

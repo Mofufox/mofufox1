@@ -20,6 +20,10 @@
   color: black;
 }
 
+/* #letstalk-contact-info {
+  visibility: hidden;
+} */
+
 #letstalk span {
   color: var(--color-primary-400);
 }
@@ -38,4 +42,8 @@
     flex-direction: row;
     margin: 0 var(--space-12);
   }
+
+  /* #letstalk-contact-info {
+    visibility: visible;
+  } */
 }
