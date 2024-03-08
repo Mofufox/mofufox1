@@ -19,6 +19,12 @@ main {
   background-color: white; /* Set your desired background color */
 }
 
+#slogan {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--color-primary-400);
+}
+
 #main-header span {
   color: black;
 }
@@ -128,6 +134,10 @@ main {
   margin: 0 1rem;
 }
 
+#logo a {
+  font-weight: bold;
+}
+
 @media (min-width: 48rem) {
   main {
     margin-top: 0;
@@ -168,9 +178,5 @@ main {
   .nav-items a:hover,
   .nav-items a:active {
     transform: translateY(-5px);
-  }
-
-  #logo a {
-    font-weight: bold;
   }
 }

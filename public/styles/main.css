@@ -20,9 +20,10 @@
 
 #text-main ul {
   list-style: outside;
+  width: 100%;
 }
 
-#text-main strong strong {
+#text-main .gold {
   color: var(--color-primary-400);
 }
 
@@ -44,5 +45,9 @@
     display: block;
     margin: 0 auto;
     width: 90%;
+  }
+
+  #text-main h1 {
+    font-size: var(--space-10) ;
   }
 }
