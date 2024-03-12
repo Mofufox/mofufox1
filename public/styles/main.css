@@ -1,3 +1,22 @@
+#over-main {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  /* padding-bottom: 3rem; */
+  background-color: back;
+  height: 3rem;
+}
+
+#over-main p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+  background-color: back;
+  height: 4rem;
+  color: var(--color-gray-100);
+}
+
 #main-container-main {
   display: flex;
   flex-direction: column;
@@ -49,5 +68,10 @@
 
   #text-main h1 {
     font-size: var(--space-10) ;
+  }
+
+  #over-main {
+    margin-top: var(--space-8);
+    /* height: var(--space-14); */
   }
 }
