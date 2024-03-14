@@ -51,32 +51,14 @@
     gap: var(--space-2) var(--space-10);
   }
 
-  /* .artists-center {
-    grid-column: 1 / -1;
-  } */
-
   .artist-item-actions p {
     margin-bottom: 0;
   }
 
-  #artists {
-    padding-bottom: var(--space-2);
-  }
 }
 
-@media (min-width: 60rem) {
-  .artist-item {
-    border-radius: var(--border-radius-medium);
-    text-align: center;
-    background-color: black;
-    overflow: hidden;
-    padding-bottom: var(--space-6);
-  }
-
+@media (min-width: 100rem) {
   #artists {
-    grid-template-columns: repeat(4, 1fr);
-    /*gap: var(--space-2) var(--space-10);*/ /* Adjust the gap as needed */
-    /* justify-items: center;
-    align-items: center; */
+    grid-template-columns: repeat(5, minmax(15rem, 1fr)); /* Set 4 columns */
   }
 }
