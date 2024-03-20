@@ -54,11 +54,10 @@
   .artist-item-actions p {
     margin-bottom: 0;
   }
-
 }
 
 @media (min-width: 100rem) {
   #artists {
-    grid-template-columns: repeat(5, minmax(15rem, 1fr)); /* Set 4 columns */
+    grid-template-columns: repeat(5, minmax(15rem, 1fr)); 
   }
 }
